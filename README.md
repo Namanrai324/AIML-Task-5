@@ -43,111 +43,14 @@ df = pd.read_csv("week 5/heart.csv")
 df.head()
 
 
-🌳 2. Decision Tree Classifier
 
-Split data into 80% training and 20% testing
 
-Trained a Decision Tree Classifier
 
-Evaluated using:
 
-Accuracy Score
 
-Confusion Matrix
 
-Classification Report
 
-Visualized the tree using:
 
-Matplotlib (plot_tree)
 
-Graphviz (export_graphviz)
 
-📉 3. Overfitting Analysis
 
-Controlled model complexity using max_depth
-
-Plotted:
-
-Training Accuracy vs Tree Depth
-
-Testing Accuracy vs Tree Depth
-
-Observed overfitting at higher depths
-
-🌲🌲 4. Random Forest Classifier
-
-Trained a Random Forest Classifier with 100 trees
-
-Compared performance with Decision Tree
-
-Extracted feature importances
-
-Visualized important features using a bar chart
-
-🔁 5. Cross-Validation
-
-Applied 5-Fold Cross-Validation
-
-Compared average accuracy of:
-
-Decision Tree
-
-Random Forest
-
-Confirmed better stability of Random Forest
-
-📈 Results
-
-(Replace XX with actual values)
-
-🌳 Decision Tree Accuracy: XX%
-
-🌲🌲 Random Forest Accuracy: XX%
-
-✅ Random Forest achieved higher accuracy and stability
-
-🔑 Top Influential Features
-
-age
-
-cp (chest pain type)
-
-thalach
-
-oldpeak
-
-📊 Visualizations
-
-📄 Decision Tree Structure (Graphviz PDF)
-
-📉 Train vs Test Accuracy vs Tree Depth
-
-📊 Random Forest Feature Importance Plot
-
-🧠 Conclusion
-
-Decision Trees are simple and interpretable but prone to overfitting
-
-Random Forests reduce overfitting and improve prediction accuracy
-
-Feature importance analysis highlights key health indicators
-
-Cross-validation confirms model reliability
-
-🧰 Technologies Used
-
-Python
-
-Pandas & NumPy
-
-Scikit-Learn
-
-Matplotlib & Seaborn
-
-Graphviz
-
-Jupyter Notebook
-
-👤 Author
-Naman Kumar Rai
