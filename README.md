@@ -14,3 +14,30 @@ Interpreting feature importance
 
 Evaluating models using cross-validation
 
+
+Heart Disease Dataset (UCI)
+
+Contains patient medical attributes with a binary target variable
+
+Target:
+
+0 → No Heart Disease
+
+1 → Presence of Heart Disease
+
+Key features include:
+
+age
+
+sex
+
+cp (chest pain type)
+
+chol
+
+trestbps
+
+thalach
+
+oldpeak
+
