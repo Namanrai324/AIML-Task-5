@@ -29,3 +29,12 @@ This project focuses on:
 
 📁 **Dataset Location**
 
+---
+
+## 🛠️ **Environment Setup**
+The project was developed in a **Conda environment** named **`aiml`**.
+
+### 🔧 **Required Libraries**
+```bash
+conda install pandas numpy matplotlib seaborn scikit-learn graphviz ipykernel jupyter -y
+
