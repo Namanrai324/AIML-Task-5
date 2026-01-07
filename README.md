@@ -38,3 +38,6 @@ The project was developed in a **Conda environment** named **`aiml`**.
 ```bash
 conda install pandas numpy matplotlib seaborn scikit-learn graphviz ipykernel jupyter -y
 
+import pandas as pd
+df = pd.read_csv("week 5/heart.csv")
+df.head()
